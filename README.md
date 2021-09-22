@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=popout&logo=apache)](https://github.com/cryptenet/nextjs-boilerplate/blob/master/LICENSE)
 
 NextJS app configured with:
+
 - Written in [Typescript](https://www.typescriptlang.org/)
 - Styled with [Tailwind CSS](https://tailwindcss.com/), [Twin](https://github.com/ben-rogerson/twin.macro) and [Stitches](https://stitches.dev/)
 - Linting with [ESLint](https://eslint.org/)
@@ -15,31 +16,37 @@ NextJS app configured with:
 ## How to use
 
 To begin
+
 ```sh
 yarn install
 ```
 
 To run development server (PORT = 5000)
+
 ```sh
 yarn run dev
 ```
 
 To format and test code
+
 ```sh
 yarn run test-all
 ```
 
 To build files
+
 ```sh
 yarn run build
 ```
 
 To run production server (PORT = 5000)
+
 ```sh
 yarn run start
 ```
 
 ---
+
 ##### Copyright (c) 2021 CRYPTENET LIMITED
 
 This software is Licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) (LICENSE)
