@@ -9,11 +9,7 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
@@ -26,38 +22,14 @@
     "strict": true,
     "target": "es2021",
     "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "@/components/*": [
-        "src/components/*"
-      ],
-      "@/core/*": [
-        "src/components/core/*"
-      ],
-      "@/pages/*": [
-        "src/pages/*"
-      ],
-      "@/styles/*": [
-        "src/styles/*"
-      ]
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"],
+      "@/core/*": ["src/components/core/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/styles/*": ["src/styles/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    ".next",
-    "out"
-  ],
-  "types": [
-    "types",
-    "node",
-    "react",
-    "tailwindcss",
-    "jest"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", ".next", "out"],
+  "types": ["types", "node", "react", "tailwindcss", "jest"]
 }
