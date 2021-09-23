@@ -1,5 +1,5 @@
 import tw from 'twin.macro';
-import { BaseLayout, Brand, Container } from '@/components';
+import { BaseLayout, Brand, Container } from '@components/index';
 
 const IndexPage = () => (
   <BaseLayout pageTitle="Home">
