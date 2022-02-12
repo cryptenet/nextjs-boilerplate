@@ -1,5 +1,6 @@
-import tw, { styled } from 'twin.macro';
+import tw from 'twin.macro';
 import { FC } from 'react';
+import { styled } from 'stitches.config';
 
 const StitchedFooter = styled('footer', {
   ...tw`flex flex-col w-screen`,
@@ -9,10 +10,12 @@ const StitchedFooter = styled('footer', {
   },
 });
 
-const Header: FC = () => (
-  <StitchedFooter>
-    <p>&copy; Cryptenet Limited {new Date().getFullYear()}</p>
-  </StitchedFooter>
-);
+const Footer: FC = function Footer() {
+  return (
+    <StitchedFooter>
+      <p>&copy; Cryptenet Limited {new Date().getFullYear()}</p>
+    </StitchedFooter>
+  );
+};
 
-export default Header;
+export default Footer;

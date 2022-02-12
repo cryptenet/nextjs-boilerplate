@@ -39,3 +39,6 @@ package-lock.json
 
 # ide files
 .idea
+
+# tsc build
+*.tsbuildinfo
